@@ -117,13 +117,19 @@ ul li span:hover{
       padding: 2% 4%;
     }
     ul li {
-      font-size: 1.5rem;
-      padding: 2% 1% 2% 4%;
+      padding-left: 3.5rem;
     }
     ul li span {
       width: 4rem;
       height: 4rem;
       font-size: 2.5rem;
+    }
+    ul li::before {
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 2.5rem;
+      height: 2.5rem;
     }
   }
   
